@@ -37,7 +37,7 @@
             this.lblResultado.AutoSize = true;
             this.lblResultado.Location = new System.Drawing.Point(53, 58);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(25, 24);
+            this.lblResultado.Size = new System.Drawing.Size(21, 20);
             this.lblResultado.TabIndex = 0;
             this.lblResultado.Text = "...";
             // 
@@ -49,6 +49,7 @@
             this.btnAccion.TabIndex = 1;
             this.btnAccion.Text = "Acción";
             this.btnAccion.UseVisualStyleBackColor = true;
+            this.btnAccion.Click += new System.EventHandler(this.btnAccion_Click);
             // 
             // Form1
             // 
