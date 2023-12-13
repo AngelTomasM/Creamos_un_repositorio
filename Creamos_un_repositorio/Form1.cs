@@ -16,5 +16,10 @@ namespace Creamos_un_repositorio
         {
             InitializeComponent();
         }
+
+        private void btnAccion_Click(object sender, EventArgs e)
+        {
+            lblResultado.Text = "Hola";
+        }
     }
 }
