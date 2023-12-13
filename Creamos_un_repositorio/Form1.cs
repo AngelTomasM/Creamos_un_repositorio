@@ -19,7 +19,10 @@ namespace Creamos_un_repositorio
 
         private void btnAccion_Click(object sender, EventArgs e)
         {
-            lblResultado.Text = "Hola";
+            if (txtEntrada.Text == "")
+                lblResultado.Text = "Hola";
+            else
+                lblResultado.Text = txtEntrada.Text;
         }
     }
 }

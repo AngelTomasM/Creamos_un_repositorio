@@ -30,12 +30,13 @@
         {
             this.lblResultado = new System.Windows.Forms.Label();
             this.btnAccion = new System.Windows.Forms.Button();
+            this.txtEntrada = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(53, 58);
+            this.lblResultado.Location = new System.Drawing.Point(53, 292);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(21, 20);
             this.lblResultado.TabIndex = 0;
@@ -51,11 +52,19 @@
             this.btnAccion.UseVisualStyleBackColor = true;
             this.btnAccion.Click += new System.EventHandler(this.btnAccion_Click);
             // 
+            // txtEntrada
+            // 
+            this.txtEntrada.Location = new System.Drawing.Point(57, 100);
+            this.txtEntrada.Name = "txtEntrada";
+            this.txtEntrada.Size = new System.Drawing.Size(249, 26);
+            this.txtEntrada.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(560, 368);
+            this.Controls.Add(this.txtEntrada);
             this.Controls.Add(this.btnAccion);
             this.Controls.Add(this.lblResultado);
             this.Name = "Form1";
@@ -69,6 +78,7 @@
 
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Button btnAccion;
+        private System.Windows.Forms.TextBox txtEntrada;
     }
 }
 
